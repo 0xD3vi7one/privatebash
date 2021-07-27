@@ -114,10 +114,7 @@ declare -a RESPONSE_HEADERS=(
    "Expires: $DATE"
     "Server: Slash Bin Slash Bash"
 )
-login_data(){
-	user: YOUR_MAIL
-	pass: "PSFCZXN0SDRjazNyRXZlcj0="
-}
+
 add_response_header() {
    RESPONSE_HEADERS+=("$1: $2")
 }
